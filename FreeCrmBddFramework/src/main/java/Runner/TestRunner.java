@@ -11,5 +11,5 @@ public class TestRunner {
 }
 
 /*
- * Feature file pathi should be right
+ * Feature file path should be right path and folder 
  */
