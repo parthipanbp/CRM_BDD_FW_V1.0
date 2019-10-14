@@ -32,7 +32,9 @@ public class LoginStepDefinition {
 		WebElement LoginBtn = driver.findElement(By.xpath("//*[contains(text(),'Log In')]"));
 		System.out.print("Login button is : " + LoginBtn.isDisplayed());
 		LoginBtn.click();
-
+		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("parthipanbp@gmail.com");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Parthi@24");
+		driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']")).click();
 	}
 
 	@And("^close the applciation$")
