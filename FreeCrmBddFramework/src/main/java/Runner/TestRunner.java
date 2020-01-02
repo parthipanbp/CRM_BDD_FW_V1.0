@@ -9,7 +9,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "F:/Git_repo/CRM_BDD_FW_V1.0/FreeCrmBddFramework/src/main/java/Features/Login.feature", tags="@test",//"feature"->a path of feature file 
 glue = { "stepDefinitions" }, // "Glue"->a path of stepdefiniton file 
 format = { "pretty", "html:test-output" },
-dryRun = true) //"dryRun" -> verify the mapping between feature and Stepdefinition steps 
+dryRun = false,//"dryRun" -> verify the mapping between feature and Stepdefinition steps 
+monochrome=true) // Produce the proper readble consol output(True/False)
+
 public class TestRunner {
 }
 
