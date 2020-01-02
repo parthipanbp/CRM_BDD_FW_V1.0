@@ -4,7 +4,5 @@ Feature: Free CRM login Feature
 Scenario: Launch and Login CRM Application 
 Given user is already on Login Page 
 When title of login page is Free CRM
-Then I should login into the application 
-
-
+And I should login into the application
 And close the applciation
